@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gestureo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Gestureo.res" /d "NDEBUG" "W:\Gestureo\Gestureo.rc"" 
+Creating temporary file "C:\WINDOWS\Temp\RSP282.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D _WIN32_WINNT=0x500 /D WINVER=0x500 /Fp"Release/Gestureo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"W:\Gestureo\Gestureo.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\Temp\RSP282.tmp" 
+Creating temporary file "C:\WINDOWS\Temp\RSP283.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D _WIN32_WINNT=0x500 /D WINVER=0x500 /Fp"Release/Gestureo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"W:\Gestureo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\Temp\RSP283.tmp" 
+Creating temporary file "C:\WINDOWS\Temp\RSP284.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Gestureo.pdb" /machine:I386 /out:"Release/Gestureo.exe" 
+.\Release\Gestureo.obj
+.\Release\StdAfx.obj
+.\Release\Gestureo.res
+]
+Creating command line "link.exe @C:\WINDOWS\Temp\RSP284.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+Gestureo.cpp
+W:\Gestureo\Gestureo.cpp(523) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+W:\Gestureo\Gestureo.cpp(533) : warning C4018: '==' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(496) : warning C4101: 'sz' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(609) : warning C4101: 'pfpt' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(614) : warning C4101: 'kbdInput' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(612) : warning C4101: 'rt' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(610) : warning C4101: 'psz' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(615) : warning C4101: 'hdc' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(608) : warning C4101: 'sz' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(613) : warning C4101: 'style' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(807) : warning C4101: 'rt' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(808) : warning C4101: 'pt' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(811) : warning C4101: 'style' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(856) : warning C4101: 'name' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(966) : warning C4101: 'type' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(965) : warning C4101: 'nKey' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1050) : warning C4018: '>=' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(1050) : warning C4018: '<=' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(1061) : warning C4018: '>=' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(1061) : warning C4018: '<=' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(1036) : warning C4101: 'array' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1035) : warning C4101: 'name' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1068) : warning C4101: 'array' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1649) : warning C4018: '<' : signed/unsigned mismatch
+W:\Gestureo\Gestureo.cpp(1705) : warning C4390: ';' : empty controlled statement found; is this the intent?
+W:\Gestureo\Gestureo.cpp(1301) : warning C4101: 'type' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1300) : warning C4101: 'nKey' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1311) : warning C4101: 'szKey' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(1299) : warning C4101: 'hKey' : unreferenced local variable
+W:\Gestureo\Gestureo.cpp(405) : warning C4700: local variable 'x' used without having been initialized
+W:\Gestureo\Gestureo.cpp(863) : warning C4700: local variable 'index' used without having been initialized
+W:\Gestureo\Gestureo.cpp(869) : warning C4700: local variable 'hWnd' used without having been initialized
+W:\Gestureo\Gestureo.cpp(878) : warning C4700: local variable 'i' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+Gestureo.exe - 0 error(s), 33 warning(s)
+</pre>
+</body>
+</html>
