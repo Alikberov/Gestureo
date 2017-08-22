@@ -34,3 +34,6 @@ In the middle You can see four bookmarks with modes. This settings defining the 
 In the /cursors/ directory You can placed different of *.cur/*.ani files with images for cursors.
 Programm support up to 256x256 pixels of image. Each of cursor-file can containing up-to 1024 frames of animations. The animation frames can be separated by empty frames for the "emotions" defining. Each of file can to containing up-to 64 "emotions".
 Right-clicking by window You can call the cursor images menu for each of mouse.
+
+## Demonstration
+[![Utility in work demonstration](https://img.youtube.com/vi/VTChiQxfB6o/0.jpg)](http://youtu.be/VTChiQxfB6o)
